@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home"
+            android:title="Home" />
+
+    </group>
+
+    <item android:title="MUSIC">
+        <menu>
+            <group>
+
+                <item
+                    android:id="@+id/nav_musicvideo"
+                    android:icon="@drawable/ic_baseline_music_video_24"
+                    android:title="MV" />
+
+                <item
+                    android:id="@+id/nav_history"
+                    android:icon="@drawable/ic_baseline_history_edu_24"
+                    android:title="History" />
+
+            </group>
+        </menu>
+
+    </item>
+
+    <item android:title="Contact">
+        <menu>
+            <group>
+                <item
+                    android:id="@+id/nav_about"
+                    android:icon="@drawable/ic_baseline_account_circle_24"
+                    android:title="About Us" />
+                <item
+                    android:id="@+id/nav_location"
+                    android:icon="@drawable/ic_baseline_map_24"
+                    android:title="Location" />
+            </group>
+        </menu>
+
+    </item>
+
+
+</menu>
