@@ -9,19 +9,38 @@
 
     </group>
 
-    <item android:title="MUSIC">
+    <item android:title="Karakia">
         <menu>
             <group>
 
                 <item
-                    android:id="@+id/nav_musicvideo"
+                    android:id="@+id/nav_video"
                     android:icon="@drawable/ic_baseline_music_video_24"
-                    android:title="MV" />
+                    android:title="Video1" />
 
                 <item
-                    android:id="@+id/nav_history"
-                    android:icon="@drawable/ic_baseline_history_edu_24"
-                    android:title="History" />
+                    android:id="@+id/nav_video2"
+                    android:icon="@drawable/ic_baseline_music_video_24"
+                    android:title="Video2" />
+
+                <item
+                    android:id="@+id/nav_video3"
+                    android:icon="@drawable/ic_baseline_music_video_24"
+                    android:title="Video3" />
+
+                <item
+                    android:id="@+id/nav_video4"
+                    android:icon="@drawable/ic_baseline_music_video_24"
+                    android:title="Video4" />
+
+                <item
+                    android:id="@+id/nav_video5"
+                    android:icon="@drawable/ic_baseline_music_video_24"
+                    android:title="Video5" />
+<!--                <item-->
+<!--                    android:id="@+id/nav_history"-->
+<!--                    android:icon="@drawable/ic_baseline_history_edu_24"-->
+<!--                    android:title="History" />-->
 
             </group>
         </menu>

@@ -11,7 +11,6 @@ import androidx.navigation.ui.navigateUp
 import androidx.navigation.ui.setupActionBarWithNavController
 import androidx.navigation.ui.setupWithNavController
 import com.example.karakiaapp.databinding.ActivityMainBinding
-import com.example.karakiaapp.ui.music_video.MV_Fragment
 import com.google.android.material.navigation.NavigationView
 
 
@@ -54,7 +53,7 @@ class MainActivity : AppCompatActivity() {
         // menu should be considered as top level destinations.
         appBarConfiguration = AppBarConfiguration(
             setOf(
-                R.id.nav_home, R.id.nav_history, R.id.nav_musicvideo, R.id.nav_about, R.id.nav_location
+                R.id.nav_home, R.id.nav_history, R.id.nav_video, R.id.nav_video2, R.id.nav_about, R.id.nav_location
             ), drawerLayout
         )
         setupActionBarWithNavController(navController, appBarConfiguration)

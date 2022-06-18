@@ -23,25 +23,25 @@
             app:titleTextColor="#000000" />
 
         <ImageView
-            android:id="@+id/opening1"
+            android:id="@+id/closing1"
             android:layout_width="match_parent"
-            android:layout_height="280dp"
+            android:layout_height="320dp"
             android:padding="0dp"
-            android:src="@drawable/opening1"
-            android:contentDescription="@string/opening1"
+            android:src="@drawable/closing1"
+            android:contentDescription="@string/closing1"
             app:layout_constraintStart_toStartOf="@+id/toolbar2"/>
 
         <TextView
-            android:id="@+id/text_1"
+            android:id="@+id/text_4"
             android:layout_width="match_parent"
-            android:layout_height="300dp"
-            android:text="The power of karakia comes from the atua, and through karakia, the sacredness of the person and their links to atua are confirmed."
+            android:layout_height="270dp"
+            android:text="@string/closing1"
             android:textAlignment="center"
-            android:textSize="25dp"
-            app:layout_constraintStart_toStartOf="@+id/opening1" />
+            android:textSize="30sp"
+            app:layout_constraintStart_toStartOf="@+id/closing1" />
 
         <Button
-            android:id="@+id/button_1"
+            android:id="@+id/button_4"
             android:layout_width="150dp"
             android:layout_height="wrap_content"
             android:layout_gravity="center"

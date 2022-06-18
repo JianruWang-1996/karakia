@@ -10,4 +10,11 @@
     <string name="menu_home">Home</string>
     <string name="menu_gallery">Gallery</string>
     <string name="menu_slideshow">Slideshow</string>
+
+    <string name="opening1">The power of karakia comes from the atua, and through karakia, the sacredness of the person and their links to atua are confirmed. </string>
+    <string name="opening2">Karakia are Māori incantations and prayers that are used to invoke spiritual guidance and protection, pay honor to those who came before us, and to bless the space.</string>
+    <string name="blessing">Traditionally, Māori would say a karakia of acknowledgement and thanks to the gods of the food that they were to partake of. They would also offer some food to the deities or atua. There were also strict rules about not eating various foods together as it would cause the deities and gods to clash.</string>
+    <string name="closing1">There are karakia for all occasions – birth, death, sickness, warfare, waka building or the growing and harvesting of kai.</string>
+    <string name="closing2">There are karakia for all occasions – birth, death, sickness, warfare, waka building or the growing and harvesting of kai.</string>
+    <string name="history_play">Play</string>
 </resources>

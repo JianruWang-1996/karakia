@@ -2,13 +2,13 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/mv_layout"
+    android:id="@+id/mv_layout4"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ui.video.video1.Video_Fragment">
+    tools:context=".ui.video.video4.Video_Fragment4">
 
     <TextView
-        android:id="@+id/text_mv"
+        android:id="@+id/text_mv4"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
