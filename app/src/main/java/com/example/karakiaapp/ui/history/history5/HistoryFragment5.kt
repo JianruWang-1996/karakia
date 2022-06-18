@@ -1,4 +1,4 @@
-package com.example.karakiaapp.ui.video.video2
+package com.example.karakiaapp.ui.history.history5
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -7,11 +7,12 @@ import android.view.ViewGroup
 import android.widget.TextView
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModelProvider
-import com.example.karakiaapp.databinding.FragmentMv2Binding
+import com.example.karakiaapp.databinding.FragmentHistory5Binding
 
-class Video_Fragment2 : Fragment() {
 
-    private var _binding: FragmentMv2Binding? = null
+class HistoryFragment5 : Fragment() {
+
+    private var _binding: FragmentHistory5Binding? = null
 
     // This property is only valid between onCreateView and
     // onDestroyView.
@@ -22,14 +23,14 @@ class Video_Fragment2 : Fragment() {
         container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View {
-        val slideshowViewModel =
-            ViewModelProvider(this).get(Video_ViewModel2::class.java)
+        val historyViewModel =
+            ViewModelProvider(this).get(HistoryViewModel5::class.java)
 
-        _binding = FragmentMv2Binding.inflate(inflater, container, false)
+        _binding = FragmentHistory5Binding.inflate(inflater, container, false)
         val root: View = binding.root
 
-        val textView: TextView = binding.textMv2
-        slideshowViewModel.text.observe(viewLifecycleOwner) {
+        val textView: TextView = binding.text5
+        historyViewModel.text.observe(viewLifecycleOwner) {
             textView.text = it
         }
         return root

@@ -13,9 +13,8 @@
 
     <fragment
         android:id="@+id/nav_history"
-        android:name="com.example.karakiaapp.ui.history.HistoryFragment"
-        android:label="History"
-        tools:layout="@layout/fragment_history" />
+        android:name="com.example.karakiaapp.ui.history.history1.HistoryFragment"
+        android:label="History" />
 
     <fragment
         android:id="@+id/nav_video"
@@ -34,20 +33,25 @@
         android:name="com.example.karakiaapp.ui.location.LocationFragment"
         android:label="Location"
         tools:layout="@layout/fragment_location" />
+
     <fragment
-        android:id="@+id/nav_video2"
-        android:name="com.example.karakiaapp.ui.video.video2.Video_Fragment2"
-        android:label="Video2" />
+        android:id="@+id/nav_history2"
+        android:name="com.example.karakiaapp.ui.history.history2.HistoryFragment2"
+        android:label="History 2"
+        tools:layout="@layout/fragment_history2" />
     <fragment
-        android:id="@+id/nav_video3"
-        android:name="com.example.karakiaapp.ui.video.video3.Video_Fragment3"
-        android:label="Video 3" />
+        android:id="@+id/nav_history3"
+        android:name="com.example.karakiaapp.ui.history.history3.HistoryFragment3"
+        android:label="History 3"
+        tools:layout="@layout/fragment_history3" />
     <fragment
-        android:id="@+id/nav_video4"
-        android:name="com.example.karakiaapp.ui.video.video4.Video_Fragment4"
-        android:label="Video 4" />
+        android:id="@+id/nav_history4"
+        android:name="com.example.karakiaapp.ui.history.history4.HistoryFragment4"
+        android:label="History 4"
+        tools:layout="@layout/fragment_history4" />
     <fragment
-        android:id="@+id/nav_video5"
-        android:name="com.example.karakiaapp.ui.video.video5.Video_Fragment5"
-        android:label="Video 5" />
+        android:id="@+id/nav_history5"
+        android:name="com.example.karakiaapp.ui.history.history5.HistoryFragment5"
+        android:label="History 5"
+        tools:layout="@layout/fragment_history5" />
 </navigation>

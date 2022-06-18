@@ -5,22 +5,15 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ui.history.HistoryFragment">
+    tools:context=".ui.history.history4.HistoryFragment4">
 
 
     <LinearLayout
+        android:id="@+id/history4"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical"
         android:padding="10dp">
-        <androidx.appcompat.widget.Toolbar
-            android:id="@+id/toolbar2"
-            android:layout_width="match_parent"
-            android:layout_height="?attr/actionBarSize"
-            android:background="#FFEB3B"
-            app:popupTheme="@style/Theme.KarakiaApp.PopupOverlay"
-            app:subtitleTextColor="#000000"
-            app:titleTextColor="#000000" />
 
         <ImageView
             android:id="@+id/closing1"
