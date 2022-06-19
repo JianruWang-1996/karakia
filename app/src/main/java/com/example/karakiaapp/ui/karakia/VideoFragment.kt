@@ -37,11 +37,11 @@ class VideoFragment : Fragment(){
         (activity as AppCompatActivity).supportActionBar?.title = shortname
         //settings
         val videoLink = when (id) {
-            2 -> R.raw.brunomars
-            3 -> R.raw.brunomars
-            4 -> R.raw.brunomars
-            5 -> R.raw.brunomars
-            else -> R.raw.brunomars
+            2 -> R.raw.opening2
+            3 -> R.raw.blessing
+            4 -> R.raw.closing1
+            5 -> R.raw.closing2
+            else -> R.raw.opening1
         }
         val video =  view.findViewById<VideoView>(R.id.video_view)
         val uri = "android.resource://" + activity?.packageName + "/" + videoLink;
