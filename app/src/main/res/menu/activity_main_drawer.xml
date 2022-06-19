@@ -15,27 +15,27 @@
                 <item
                     android:id="@+id/nav_history"
                     android:icon="@drawable/ic_baseline_history_edu_24"
-                    android:title="History 1" />
+                    android:title="Opening One" />
 
                 <item
                     android:id="@+id/nav_history2"
                     android:icon="@drawable/ic_baseline_history_edu_24"
-                    android:title="History 2" />
+                    android:title="Opening Two" />
 
                 <item
                     android:id="@+id/nav_history3"
                     android:icon="@drawable/ic_baseline_history_edu_24"
-                    android:title="History 3" />
+                    android:title="Blessing For Food" />
 
                 <item
                     android:id="@+id/nav_history4"
                     android:icon="@drawable/ic_baseline_history_edu_24"
-                    android:title="History 4" />
+                    android:title="Closing One" />
 
                 <item
                     android:id="@+id/nav_history5"
                     android:icon="@drawable/ic_baseline_history_edu_24"
-                    android:title="History 5" />
+                    android:title="Closing Two" />
 
             </group>
         </menu>

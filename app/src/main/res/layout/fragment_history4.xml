@@ -30,6 +30,7 @@
             android:layout_height="270dp"
             android:text="@string/closing1"
             android:textAlignment="center"
+            android:textColor="@color/black"
             android:textSize="30sp"
             app:layout_constraintStart_toStartOf="@+id/closing1" />
 
