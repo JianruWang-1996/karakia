@@ -58,7 +58,7 @@ class HomeFragment : Fragment() {
                         "Draw them forward under the mantle of\n" +
                         "love and peace\n" +
                         "\nLet us remain steadfast to these words!",
-                R.raw.brunomars,
+                R.raw.opening1
 
             )
         )
@@ -82,7 +82,7 @@ class HomeFragment : Fragment() {
                         "\nMay the dawn rise red-tipped\n" +
                         "on ice, on snow, on frost.\n" +
                         "\nJoin! Gather! Intertwine!",
-                R.raw.brunomars
+                R.raw.opening2
 
             )
         )
@@ -110,7 +110,7 @@ class HomeFragment : Fragment() {
                         "\nJesus Christ, our Lord\n" +
                         "For ever and ever\n" +
                         "Amen\n",
-                R.raw.brunomars
+                R.raw.blessing
             )
         )
         karakiStringList.add(
@@ -134,7 +134,7 @@ class HomeFragment : Fragment() {
                         "of the Holy Spirit Be with you all\n" +
                         "\nforever and ever,\n" +
                         "Amen",
-                R.raw.brunomars
+                R.raw.closing1
             )
         )
         karakiStringList.add(
@@ -155,7 +155,7 @@ class HomeFragment : Fragment() {
                         "to all men\n\n" +
                         "for ever and ever.\n" +
                         "Amen.",
-                R.raw.brunomars
+                R.raw.closing2
             )
         )
         return karakiStringList
